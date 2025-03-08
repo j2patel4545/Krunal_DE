@@ -12,7 +12,14 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="176" height="44" viewBox="0 0 176 44" fill="none"><path class="chunk_1" fill-rule="evenodd" clip-rule="evenodd" d="M45.8073 18.3817C45.8073 19.5397 47.1661 19.8409 49.3281 20.0417C54.1074 20.4946 56.8251 21.9539 56.8461 25.3743C56.8461 28.7457 54.2802 30.9568 48.9989 30.9568C44.773 30.9568 42.1067 29.1496 41 26.5814L44.4695 24.5688C45.3754 25.9277 46.5334 27.0343 49.4005 27.0343C51.3127 27.0343 52.319 26.4296 52.319 25.5751C52.319 24.5665 51.6139 24.2163 48.3942 23.866C43.7037 23.3617 41.3899 22.0029 41.3899 18.5824C41.3899 15.9675 43.3511 13 48.9359 13C52.9611 13 55.6274 14.8095 56.4305 17.1746L53.1105 19.1358C53.0877 19.1012 53.0646 19.0657 53.041 19.0295C52.4828 18.1733 51.6672 16.9224 48.6744 16.9224C46.914 16.9224 45.8073 17.4758 45.8073 18.3817ZM67.4834 13.3526H59.5918V30.707H64.0279V26.0794H67.4484C72.1179 26.0794 75.0948 24.319 75.0948 19.6401C75.0854 15.3138 72.6199 13.3526 67.4834 13.3526ZM67.4834 22.206H64.0186V17.226H67.4834C69.8975 17.226 70.654 18.0291 70.654 19.6891C70.6587 21.6527 69.6524 22.206 67.4834 22.206ZM88.6994 24.7206C88.6994 26.2289 87.4924 27.0857 85.3794 27.0857C83.3178 27.0857 82.1597 26.2289 82.1597 24.7206V13.3526H77.7236V25.0264C77.7236 28.6477 80.7425 30.9615 85.4704 30.9615C89.9999 30.9615 93.1168 28.8601 93.1168 25.0264V13.3526H88.6808L88.6994 24.7206ZM136.583 13.3526H132.159V30.7023H136.583V13.3526ZM156.097 13.3526L149.215 21.9235L156.45 30.707H151.066L144.276 22.4559V30.707H139.85V13.3526H144.276V21.8021L151.066 13.3526H156.097ZM95.6874 17.226H101.221V30.707H105.648V17.226H111.181V13.3526H95.6874V17.226ZM113.49 18.7342C113.49 15.2134 116.458 13 121.085 13C125.715 13 128.888 15.0616 128.902 18.7342V30.707H124.466V18.935C124.466 17.6789 123.259 16.8734 121.146 16.8734C119.094 16.8734 117.926 17.6789 117.926 18.935V30.707H113.49V18.7342Z" fill="white"></path><path class="chunk_2" d="M41 7L14.8979 36.5862L8 18.431L41 7Z" fill="#F8961D"></path></svg>
             <h3>International</h3>
         </div>   
+            <div>
+
+    <button class="btn" onclick="openModal('loginModal')"> Login</button>
+    <button class="btn" onclick="openModal('registerModal')"> Registration</button>
+
+            </div>
         <div class="menu">
+            
             <div class="header__menu">
                 <a href="#" class="header__menu-item m-login" title="Authorization">
                     <svg class="svg-icon" width="24" height="24" viewBox="0 0 24 24">
@@ -55,21 +62,14 @@
     </div>
 
     
-    <div class="abc"> 
-        <div class="news-container ">
-            <div class="news-item" style="grid-column: span 2;">
-               <!-- <img src="./Public/one.webp" alt="Feature News"> -->
-               <div class="category">World</div>
-               <h2>Starlink Shutdown: A Ticking Time Bomb for Ukraine's Armed Forces</h2>
-               <div class="icons">32 minutes ago | <span>👍 15</span></div>
-           </div>
-          
-               
-           </div>
-    </div>
+  <div class="maindiv">
+        <div class="top">
 
-    <button onclick="openModal('loginModal')">Open Login</button>
-    <button onclick="openModal('registerModal')">Open Registration</button>
+        </div>
+        <div class="down">
+            <img src="./Public/two.webp" alt="">
+        </div>
+  </div>
 
     <!-- Login Modal -->
     <div class="modal" id="loginModal">
@@ -103,7 +103,61 @@
             <button class="apple-btn">Apple</button>
             <a href="#" class="login-link" onclick="switchModal('registerModal', 'loginModal')">Login with username and password</a>
         </div>
+        
+        
     </div>
+
+
+    <div class="header">
+        <div class="logo">
+            <img src="https://cdn1.img.sputnikglobe.com/i/logo/logo.svg" alt="Sputnik Logo" />
+            <span class="international">International</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#">WORLD</a>
+            <a href="#">AMERICAS</a>
+            <a href="#">RUSSIA</a>
+            <a href="#">ECONOMY</a>
+            <a href="#">MILITARY</a>
+            <a href="#">SCIENCE & TECH</a>
+            <a href="#">MULTIMEDIA</a>
+        </nav>
+        <div class="social-buttons">
+            <button class="telegram">
+                <img src="data:image/png;base64,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" alt="Telegram" />
+                Telegram
+            </button>
+            <button class="x">
+                <img src="data:image/png;base64,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" alt="X" />
+                X
+            </button>
+        </div>
+    </div>
+    
+
+    <!-- footer -->
+<footer class="footer">
+        <div class="social-buttons">
+            <button class="telegram">Telegram</button>
+            <button class="x">X</button>
+        </div>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Press Info</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Privacy Feedback</a>
+            <a href="#">Tracking Preferences</a>
+        </div>
+        <div class="store-buttons">
+            <img src="appstore.png" alt="App Store">
+            <img src="playstore.png" alt="Google Play">
+            <img src="apkfile.png" alt="APK File">
+        </div>
+        <div class="copyright">© 2025 Sputnik All rights reserved. 18+</div>
+    </footer>
 
     <script>
          let currentIndex = 0;
